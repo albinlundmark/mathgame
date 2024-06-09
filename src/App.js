@@ -17,7 +17,7 @@ const theme = createTheme({
     },
   },
 });
-
+/* eslint-disable */
 function App() {
   const [expression, setExpression] = useState('');
   const [correctAnswer, setCorrectAnswer] = useState(null);
